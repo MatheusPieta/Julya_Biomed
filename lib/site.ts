@@ -23,12 +23,12 @@ export const procedures = [
     tag: "Cuidado facial",
   },
   {
-    name: "Microagulhamento",
-    description: "Uma experiência que conecta a prática em estética ao interesse pela pesquisa.",
-    detail: "Além da vivência prática, o microagulhamento foi tema do meu TCC, em um estudo com duas participantes sobre sua associação ao PDRN no rejuvenescimento cutâneo.",
+    name: "Peeling de diamante",
+    description: "Também presente na minha vivência em estética facial durante a formação técnica.",
+    detail: "Experiência prática em peeling de diamante adquirida durante a formação técnica em estética, integrando meu percurso de cuidados faciais.",
     image: "/images/julya/microagulhamento.webp",
-    alt: "Julya utilizando um dispositivo em uma prática de estética facial",
-    tag: "Prática e pesquisa",
+    alt: "Julya realizando peeling de diamante em uma prática de estética facial",
+    tag: "Estética facial",
   },
   {
     name: "Lash lifting",
@@ -37,5 +37,13 @@ export const procedures = [
     image: "/images/julya/lash-lifting.webp",
     alt: "Julya realizando um cuidado na região dos cílios",
     tag: "Realce do olhar",
+  },
+  {
+    name: "Intradermoterapia Capilar",
+    description: "Um cuidado direcionado ao couro cabeludo, com atenção em cada etapa.",
+    detail: "Uma experiência prática em estética capilar, com foco no cuidado do couro cabeludo e atenção à execução do procedimento.",
+    image: "/images/julya/intradermoterapia-capilar.webp",
+    alt: "Julya realizando intradermoterapia no couro cabeludo",
+    tag: "Cuidado capilar",
   },
 ] as const

@@ -2,7 +2,7 @@ import Link from "next/link"
 import { ArrowUpRight, MapPin, MessageCircle } from "lucide-react"
 import { navigation, site } from "@/lib/site"
 
-const procedures = ["Limpeza de pele", "Microagulhamento", "Peeling de diamante", "Eletroterapia", "Lash lifting"]
+const procedures = ["Limpeza de pele", "Microagulhamento", "Peeling de diamante", "Eletroterapia", "Lash lifting", "Intradermoterapia Capilar"]
 
 export function Footer() {
   return (
