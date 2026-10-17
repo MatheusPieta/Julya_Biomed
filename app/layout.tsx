@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "Conheça Julya Caroline Ferreira: biomédica pela FURB, técnica em estética pelo NES e pós-graduanda em Saúde Estética pelo IOA, em Blumenau, SC.",
   openGraph: {
     title: "Julya Caroline Ferreira | Biomedicina e Estética",
-    description: "Sua beleza, com ciência e cuidado. Conheça minha formação, experiência e pesquisa em estética.",
+    description: "A beleza de ser você, em cada detalhe. Conheça minha formação, experiência e pesquisa em estética.",
     locale: "pt_BR",
     type: "website",
   },

@@ -38,9 +38,9 @@ export function HeroSection() {
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32 w-full">
         <div className="max-w-2xl lg:max-w-[58%]">
           <p data-reveal className="text-xs sm:text-sm uppercase tracking-[0.2em] text-background/90 font-medium mb-6">Julya Caroline Ferreira</p>
-          <h1 className="font-serif text-[clamp(2.7rem,5.4vw,5.5rem)] font-medium leading-[1.1] text-background text-balance mb-8">
-            <AnimatedText text="Sua beleza," delay={0.15} /><br />
-            <span className="text-accent"><AnimatedText text="com ciência" delay={0.4} /><br /><AnimatedText text="e cuidado." delay={0.65} /></span>
+          <h1 aria-label="A beleza de ser você, em cada detalhe." className="font-serif text-[clamp(2.7rem,5.4vw,5.5rem)] font-medium leading-[1.1] text-background text-balance mb-8">
+            <AnimatedText text="A beleza de" delay={0.15} /><br />
+            <span className="text-accent"><AnimatedText text="ser você," delay={0.4} /><br /><AnimatedText text="em cada detalhe." delay={0.65} /></span>
           </h1>
           <p data-reveal className="text-base md:text-lg text-background/85 leading-relaxed mb-10 max-w-lg">Biomédica pela FURB, técnica em estética e pós-graduanda em Saúde Estética pelo IOA. Um olhar atento à sua individualidade, do conhecimento à prática.</p>
           <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
