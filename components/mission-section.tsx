@@ -20,7 +20,7 @@ export function MissionSection() {
             <div aria-hidden="true" className="hidden lg:block" />
             <div>
               <p data-reveal className="text-sm uppercase tracking-[0.2em] text-accent font-medium mb-4">Muito prazer</p>
-              <h2 data-reveal className="font-serif text-4xl md:text-5xl font-medium text-background text-balance mb-8">Sou a Julya.<br />Ciência no olhar,<br />cuidado na prática.</h2>
+              <h2 data-reveal className="font-serif text-4xl md:text-5xl font-medium text-background text-balance mb-8">Sou a Julya.<br />Cada pele é única.<br />Meu cuidado começa por entender a sua.</h2>
               <div data-reveal className="flex flex-col gap-5 text-background/85 leading-relaxed">
                 <p>Me chamo Julya Caroline Ferreira. Sou biomédica pela FURB, com habilitação em análises clínicas, e encontrei na estética um caminho para unir conhecimento e cuidado.</p>
                 <p>Minha formação técnica pelo NES me proporcionou experiências em estética facial e corporal. Hoje, sigo ampliando esse percurso na pós-graduação em Saúde Estética pelo IOA.</p>
