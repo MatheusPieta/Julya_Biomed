@@ -29,7 +29,7 @@ export function TestimonialsSection() {
             </article>
           ))}
         </div>
-        <p data-reveal className="text-center font-serif text-xl md:text-2xl text-primary max-w-3xl mx-auto mt-9 leading-relaxed">“Foi uma experiência muito enriquecedora na área.”<span className="block font-sans text-xs text-muted-foreground mt-4 tracking-wider uppercase">Julya Caroline Ferreira</span></p>
+        <p data-reveal className="text-center font-serif text-xl md:text-2xl text-primary max-w-3xl mx-auto mt-9 leading-relaxed">“Estudar a associação entre microagulhamento e PDRN ampliou meu olhar sobre o rejuvenescimento cutâneo.”<span className="block font-sans text-xs text-muted-foreground mt-4 tracking-wider uppercase">Julya Caroline Ferreira</span></p>
       </div>
     </section>
   )
