@@ -42,7 +42,7 @@ export function HeroSection() {
             <AnimatedText text="A beleza de" delay={0.15} /><br />
             <span className="text-accent"><AnimatedText text="ser você," delay={0.4} /><br /><AnimatedText text="em cada detalhe." delay={0.65} /></span>
           </h1>
-          <p data-reveal className="text-base md:text-lg text-background/85 leading-relaxed mb-10 max-w-lg">Biomédica pela FURB, técnica em estética e pós-graduanda em Saúde Estética pelo IOA. Um olhar atento à sua individualidade, do conhecimento à prática.</p>
+          <p data-reveal className="text-base md:text-lg text-background/85 leading-relaxed mb-10 max-w-lg">Biomédica pela FURB, técnica em estética (NES) e pós-graduanda em Saúde Estética pelo IOA. Um olhar atento à sua individualidade, do conhecimento à prática.</p>
           <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
             <Button asChild size="lg" className="rounded-full px-8 h-12 group"><Link href="#procedimentos">Conheça meu trabalho <ArrowRight data-icon="inline-end" className="group-hover:translate-x-1 transition-transform" /></Link></Button>
             <Button asChild size="lg" variant="outline" className="hero-outline rounded-full px-8 h-12"><a href={site.whatsapp} target="_blank" rel="noopener noreferrer">Vamos conversar</a></Button>
