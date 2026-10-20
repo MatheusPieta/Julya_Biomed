@@ -15,7 +15,7 @@ export function ProductSection() {
         <div className="text-center mb-16 lg:mb-20">
           <p data-reveal className="text-sm uppercase tracking-[0.2em] text-secondary font-medium mb-4">Da formação à prática</p>
           <ScrollBlurText text="Cuidado em cada detalhe" className="font-serif text-4xl md:text-6xl lg:text-7xl text-foreground text-balance mb-6 font-light" />
-          <p data-reveal className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">Conheça os procedimentos que fazem parte da minha experiência em estética e do meu percurso de aprendizado.</p>
+          <p data-reveal className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">Conheça alguns dos procedimentos que fazem parte da minha experiência em estética e do meu percurso de aprendizado.</p>
         </div>
         <div data-reveal className="flex gap-6 overflow-x-auto snap-x snap-mandatory scrollbar-hide lg:grid lg:grid-cols-2 xl:grid-cols-4 lg:overflow-visible -mx-6 px-6 lg:mx-0 lg:px-0 pb-6 lg:pb-0">
           {procedures.map((procedure) => (

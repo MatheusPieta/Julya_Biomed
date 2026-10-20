@@ -25,3 +25,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local PDF exports and generation artifacts (not for GitHub)
+*.pdf
+/output/
+/tmp/pdfs/
+create_julya_cv.py
+julya-cv-page-*.png
