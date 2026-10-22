@@ -47,3 +47,31 @@ export const procedures = [
     tag: "Cuidado capilar",
   },
 ] as const
+
+export const additionalProcedures = [
+  {
+    name: "Design de sobrancelhas",
+    tag: "Realce do olhar",
+    description: "Vivência em design de sobrancelhas, com atenção ao formato e à expressão do olhar.",
+  },
+  {
+    name: "Toxina botulínica",
+    tag: "Estética facial",
+    description: "Experiência em toxina botulínica, integrando meu percurso de aprendizado em estética facial.",
+  },
+  {
+    name: "Secagem de vasinhos",
+    tag: "Estética corporal",
+    description: "Vivência no procedimento de secagem de vasinhos, ampliando meu repertório em estética corporal.",
+  },
+  {
+    name: "Microagulhamento",
+    tag: "Prática e pesquisa",
+    description: "Uma experiência que conecta a prática em estética ao interesse pela pesquisa. Foi tema do meu TCC, em um estudo com duas participantes sobre sua associação ao PDRN no rejuvenescimento cutâneo.",
+  },
+  {
+    name: "Eletroterapia",
+    tag: "Estética facial e corporal",
+    description: "Experiência com recursos de eletroterapia aplicados aos cuidados estéticos faciais e corporais.",
+  },
+] as const

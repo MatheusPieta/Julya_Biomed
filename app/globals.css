@@ -207,3 +207,81 @@ body { overflow-x: clip; }
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+/* Keep the manual mobile carousel; repeat the text cards only on desktop. */
+.experience-card-copy {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .experience-carousel {
+    container-type: inline-size;
+    overflow: hidden;
+    --experience-gap: 1.5rem;
+    --experience-card-width: calc((100cqw - var(--experience-gap)) / 2);
+  }
+
+  .experience-track {
+    width: max-content;
+    overflow: visible;
+    gap: var(--experience-gap);
+    padding-top: 0.25rem;
+    scroll-snap-type: none;
+    animation: experience-marquee 120s linear infinite;
+    will-change: transform;
+  }
+
+  .experience-track > li {
+    width: var(--experience-card-width);
+  }
+
+  .experience-card-copy {
+    display: flex;
+  }
+
+  .experience-carousel:hover .experience-track,
+  .experience-carousel[data-paused="true"] .experience-track {
+    animation-play-state: paused;
+  }
+
+  /* Keyboard readers can browse the original five cards manually. */
+  .experience-carousel:focus-within .experience-track {
+    width: auto;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    animation: none;
+    transform: none;
+    will-change: auto;
+  }
+
+  .experience-carousel:focus-within .experience-card-copy {
+    display: none;
+  }
+
+  @keyframes experience-marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(calc(-50% - var(--experience-gap) / 2)); }
+  }
+}
+
+@media (min-width: 1280px) {
+  .experience-carousel {
+    --experience-card-width: calc((100cqw - var(--experience-gap) * 3) / 4);
+  }
+}
+
+@media (min-width: 1024px) and (prefers-reduced-motion: reduce) {
+  .experience-track {
+    width: auto;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    animation: none !important;
+    transform: none;
+    will-change: auto;
+  }
+
+  .experience-card-copy,
+  .experience-pause {
+    display: none;
+  }
+}
