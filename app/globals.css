@@ -239,7 +239,6 @@ body { overflow-x: clip; }
     display: flex;
   }
 
-  .experience-carousel:hover .experience-track,
   .experience-carousel[data-paused="true"] .experience-track {
     animation-play-state: paused;
   }
