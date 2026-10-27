@@ -270,17 +270,8 @@ body { overflow-x: clip; }
 }
 
 @media (min-width: 1024px) and (prefers-reduced-motion: reduce) {
+  /* Keep desktop autoplay at its normal pace, including on reduced-motion systems. */
   .experience-track {
-    width: auto;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    animation: none !important;
-    transform: none;
-    will-change: auto;
-  }
-
-  .experience-card-copy,
-  .experience-pause {
-    display: none;
+    animation-duration: 120s !important;
   }
 }
