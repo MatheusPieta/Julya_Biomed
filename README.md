@@ -21,7 +21,7 @@ pnpm start
 
 ## Conteúdo
 
-- lib/site.ts: nome, cidade, WhatsApp, navegação e procedimentos.
+- lib/site.ts: nome, cidade, Instagram, navegação e procedimentos.
 - components/science-section.tsx: formação FURB, IOA e NES.
 - components/testimonials-section.tsx: estudo acadêmico de microagulhamento associado ao PDRN. O nome do arquivo foi preservado da base, mas não contém depoimentos de pacientes.
 - components/mission-section.tsx: apresentação profissional.

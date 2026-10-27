@@ -29,7 +29,7 @@ export function Header() {
             ))}
           </div>
           <div className="hidden lg:block">
-            <Button asChild className="rounded-full px-6"><a href={site.whatsapp} target="_blank" rel="noopener noreferrer">Vamos conversar <ArrowUpRight data-icon="inline-end" /></a></Button>
+            <Button asChild className="rounded-full px-6"><a href={site.instagram} target="_blank" rel="noopener noreferrer">Vamos conversar <ArrowUpRight data-icon="inline-end" /></a></Button>
           </div>
           <button type="button" className="lg:hidden p-2 text-foreground rounded-lg focus-visible:outline-2 focus-visible:outline-primary" onClick={() => setIsOpen((open) => !open)} aria-label={isOpen ? "Fechar menu" : "Abrir menu"} aria-expanded={isOpen} aria-controls="menu-mobile">
             {isOpen ? <X className="size-6" /> : <Menu className="size-6" />}
@@ -41,7 +41,7 @@ export function Header() {
               {navigation.map((item) => (
                 <Link key={item.href} href={item.href} className="text-lg text-muted-foreground hover:text-foreground transition-colors" onClick={() => setIsOpen(false)}>{item.label}</Link>
               ))}
-              <Button asChild className="rounded-full mt-2"><a href={site.whatsapp} target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Conversar pelo WhatsApp <ArrowUpRight data-icon="inline-end" /></a></Button>
+              <Button asChild className="rounded-full mt-2"><a href={site.instagram} target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Conversar pelo Instagram <ArrowUpRight data-icon="inline-end" /></a></Button>
             </div>
           </div>
         ) : null}

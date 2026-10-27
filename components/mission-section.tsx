@@ -26,7 +26,7 @@ export function MissionSection() {
                 <p>Minha formação técnica pelo NES me proporcionou experiências em estética facial e corporal. Hoje, sigo ampliando esse percurso na pós-graduação em Saúde Estética pelo IOA.</p>
                 <p>Acredito em um cuidado que começa com atenção e se constrói com estudo, sensibilidade e respeito à individualidade de cada pessoa.</p>
               </div>
-              <div data-reveal className="mt-10"><Button asChild size="lg" variant="secondary" className="about-button rounded-full px-8 h-12 group"><a href={site.whatsapp} target="_blank" rel="noopener noreferrer">Vamos conversar <ArrowUpRight data-icon="inline-end" className="group-hover:translate-x-0.5 transition-transform" /></a></Button></div>
+              <div data-reveal className="mt-10"><Button asChild size="lg" variant="secondary" className="about-button rounded-full px-8 h-12 group"><a href={site.instagram} target="_blank" rel="noopener noreferrer">Vamos conversar <ArrowUpRight data-icon="inline-end" className="group-hover:translate-x-0.5 transition-transform" /></a></Button></div>
             </div>
           </div>
         </div>

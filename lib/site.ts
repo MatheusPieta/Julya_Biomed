@@ -2,8 +2,8 @@ export const site = {
   name: "Julya Caroline Ferreira",
   shortName: "Julya Caroline",
   city: "Blumenau, SC",
-  phone: "(47) 99691-9732",
-  whatsapp: "https://wa.me/5547996919732?text=Ol%C3%A1%2C%20Julya!%20Conheci%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seu%20atendimento.",
+  instagramHandle: "@juulya_",
+  instagram: "https://www.instagram.com/juulya_/",
 } as const
 
 export const navigation = [
